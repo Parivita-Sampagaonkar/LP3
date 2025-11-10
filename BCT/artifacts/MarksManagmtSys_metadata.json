@@ -1,0 +1,182 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_ID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_marks",
+						"type": "uint256"
+					}
+				],
+				"name": "addNewRecords",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllRecords",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "ID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "fName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "marks",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct MarksManagmtSys.StudentStruct[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stdCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stdRecords",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "ID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "marks",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"marksmanagementsys.sol": "MarksManagmtSys"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"marksmanagementsys.sol": {
+			"keccak256": "0x64571cf64d024309846d1df64e3c9ce65643504974ef660518914f13d9426bc6",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://1fa12cc22e549dbfdc1030f729e47f9a6e0cf4319e4402051e98b22d4f62461d",
+				"dweb:/ipfs/QmV49qoTYRscKURXtPhUBR5ekKGRjfwmLwrQ2T2kbixvA8"
+			]
+		}
+	},
+	"version": 1
+}
